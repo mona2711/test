@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The form element</h1>
+
+<form method="" id = "frmsubmit">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" id= "btnsubmit"value="Submit">
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$('#frmsubmit').on('submit',function(e){
+	/*alert("working")
+	
+	e.preventDefault();
+	$.ajax({
+	url:'https://script.google.com/macros/s/AKfycbwPxuM9Dvtf4UHLxt8pO2KouqW5DIZy0ergGMnDhHvSjdtxmobQqU8VxrI_IWng270/exec',
+	crossDomain: true,
+	type:'post',
+	dataType: "jsonp",
+	data:$('#frmSubmit').serialize(),
+	success:function(result){
+	console.log(result)
+	}
+	})*/
+	});
+</script>
+</body>
+</html>
